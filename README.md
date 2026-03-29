@@ -8,7 +8,7 @@ Soporta imágenes y videos (extrae un frame para la paleta de colores y reproduc
 
 Instalar dependencias en Arch Linux con yay:
 
-yay -S python-pywal16 ffmpeg mpvpaper
+yay -S python-pywal16 ffmpeg mpvpaper awww
 
 ## Instalación del script
 
@@ -19,6 +19,7 @@ cp awal ~/.local/bin/awal
 chmod +x ~/.local/bin/awal
 
 Asegurarse de que ~/.local/bin esté en tu PATH:
+Asegurarse que el daemon de awww es ten ejecucion
 
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
