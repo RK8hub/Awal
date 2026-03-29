@@ -8,7 +8,7 @@ Soporta imágenes y videos (extrae un frame para la paleta de colores y reproduc
 
 Instalar dependencias en Arch Linux con yay:
 
-yay -S python-pywal ffmpeg mpvpaper
+yay -S python-pywal16 ffmpeg mpvpaper
 
 ## Instalación del script
 
